@@ -37,7 +37,11 @@ class Interface:
         """"Get the name of the wifi interfacce."""
 
         return self._raw_obj['name']
-
+    
+    def mac_addr(self):
+        # TODO
+        pass
+        
     def scan(self):
         """Trigger the wifi interface to scan."""
 
